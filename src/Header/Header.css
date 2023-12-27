@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-left: 192px;
+    margin-right: 0 auto;
+    margin-bottom: 80px;
+  }
+  
+  .user-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .healthcare-text {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .right-section a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #888;
+  }
+  
+  .right-section a.selected {
+    color: #000;
+  }
