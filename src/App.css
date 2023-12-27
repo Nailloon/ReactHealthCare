@@ -2,7 +2,6 @@
   width: 1600px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: left;
   align-items: center;
 }
 
@@ -19,4 +18,71 @@
 
 .column1 {
   text-align: left;
+  margin-right: 127px;
+}
+
+.container2 {
+  margin-left: 162px;
+}
+.header0{
+  color: #000;
+
+  font-family: 'Muli', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+.header {
+  color: #000;
+  font-family: 'Muli', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+.text0{
+  color: #7D7987;
+  font-family: 'Muli', sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+.text1 {
+color: #7D7987;
+width: 266px;
+font-family: 'Muli', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+margin-right: 60px;
+}
+
+.headerCenter{
+  color: #000;
+  text-align: center;
+font-family: 'Muli', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 155.556% */
+}
+
+.text2{
+  color: #7D7987;
+
+text-align: center;
+font-family: 'Muli', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 166.667% */
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between; /* изначально располагаем справа, или */
+  justify-content: center; /* для центра */
 }
