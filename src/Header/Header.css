@@ -18,6 +18,12 @@ header {
   .healthcare-text {
     font-weight: bold;
     font-size: 18px;
+    color: #233348;
+    font-family: 'Muli', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
 
   .left-section {
@@ -28,9 +34,17 @@ header {
   .right-section a {
     margin-right: 40px;
     text-decoration: none;
-    color: #888;
+    color: #000;
+    opacity: 0.5;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
   
   .right-section a.selected {
     color: #000;
+    opacity: 1.0;
+
   }

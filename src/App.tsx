@@ -7,6 +7,7 @@ import GridContainer from './Components/GridProps/GridContainerProps'
 import Divider from './Components/Divider';
 import TestimonialSlider from './Slider/TestimonialSlider'
 import CardSection from './Components/Cards/Cards'
+import Footer from './Footer/Footer'
 
 const items = [
   {
@@ -150,6 +151,7 @@ function App() {
       <Divider width={'56px'} borderRadius={'5px'} color={'#000000'} height={'2px'} align='center'></Divider></div>
     <div className='container3'><CardSection initialCardWidth={350} initialCardHeight={512} shownCards={initialCards} hiddenCards={initialCards} rowSpacing={34} cardSpacing={17}></CardSection>
     </div>
+    <Footer></Footer>
     </>
   )
 }
