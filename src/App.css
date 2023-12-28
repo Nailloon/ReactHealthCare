@@ -1,42 +1,181 @@
 #root {
-  max-width: 1280px;
+  width: 1600px;
   margin: 0 auto;
   padding: 2rem;
+  align-items: center;
+}
+
+.Pic1 {
+  width: 693px;
+  height: 598px;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 192px;
+  grid-column-gap: 127px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 200px; 
+}
+
+.column1 {
+  display: grid;
+  text-align: left;
+  margin-right: 127px;
+  gap: 8px;
+}
+
+.container2 {
+  margin-left: 162px;
+  margin-bottom: 200px;
+}
+.container2WithoutMargin{
+  margin-left: 192px;
+  margin-bottom: 72px;
+}
+.header0{
+  color: #000;
+
+  font-family: 'Muli', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+.header {
+  color: #000;
+  font-family: 'Muli', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+.text0{
+  color: #7D7987;
+  font-family: 'Muli', sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+.text1 {
+color: #7D7987;
+width: 266px;
+font-family: 'Muli', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+margin-right: 60px;
+}
+
+.headerCenter{
+  color: #000;
   text-align: center;
+font-family: 'Muli', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.headerNormal{
+  color: #000;
+font-family: 'Muli', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text2{
+  color: #7D7987;
+
+text-align: center;
+font-family: 'Muli', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 166.667% */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.textNormal{
+  color: #7D7987;
+font-family: 'Muli', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 166.667% */
 }
 
-.card {
-  padding: 2em;
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between; /* изначально располагаем справа, или */
+  justify-content: center; /* для центра */
 }
 
-.read-the-docs {
-  color: #888;
+.header3{
+  color: #000;
+
+  font-family: 'Muli', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; 
+}
+
+.column2 {
+  display: grid;
+  text-align: left;
+  margin-left: 122px;
+  margin-right: 40px;
+  gap: 20px;
+}
+.column3 {
+  display: grid;
+  text-align: left;
+  margin-left: 117px;
+  margin-right: 84px;
+  gap: 30px;
+}
+.container3 {
+  display: flex;
+  justify-content: space-between; /* изначально располагаем справа, или */
+  justify-content: center;
+  margin-left: 192px;
+  margin-bottom: 350px;
+}
+.header{
+  color: #000;
+  font-family: 'Muli', sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  width: 266px;
+}
+.textik{
+  color: #7D7987;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  width: 266px;
+}
+.link1{
+  color: #4089ED;
+  font-family: 'Muli', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%); /* Градиент от белого к желтому */
+  height: 200px; /* Высота фрагмента, которую можно контролировать */
 }

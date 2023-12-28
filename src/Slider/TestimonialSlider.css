@@ -1,0 +1,136 @@
+.testimonial-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: 192px;
+    margin-bottom: 220px;
+  }
+  
+  .testimonial-container {
+    position: relative;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .background-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    z-index: -1;
+    border-radius: 20px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .testimonial {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 116px;
+    justify-content: center;
+  }
+  
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #5B9BF3;
+    margin: 0 5px;
+    opacity: 0.3;
+    gap: 10px;
+  }
+  
+  .dot.active {
+    opacity: 1.0;
+  }
+  .dots{
+    flex-direction: row;
+  }
+  .avatar {
+    width: 141px;
+    height: 141px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+  }
+
+  .arrow {
+    width: 30px; /* Настрой размер подходящий для твоего дизайна */
+    height: 20px;
+    cursor: pointer; /* Добавь, чтобы при наведении менялся курсор для наглядности */
+    /* Добавь другие стили по желанию, например, отступы */
+  }
+  .arrow.disabled{
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0.3;
+  }
+  .reviewHeader{
+    color: #FFF;
+text-align: center;
+font-family: 'Muli', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px;
+  }
+
+  .reviewText{
+    color: rgba(255, 255, 255, 0.90);
+
+font-family: 'Muli', sans-serif;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-right: 118px;
+margin-left: 60px;
+  }
+
+  .aboutUser {
+    display: flex;
+    flex-direction: column;
+    text-align: left; /* Центрируем текст по середине */
+    margin: 0;
+    min-width: 300px; /* Убираем лишние отступы */
+  }
+  
+  .nameText, .dopInfo {
+    margin-left: 29px; /* Убираем лишние отступы */
+  }
+  
+.nameText{
+    color: #FFF;
+
+font-family: 'Muli', sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px;
+}
+.dopInfo{
+    color: rgba(255, 255, 255, 0.85);
+
+font-family: 'Muli', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px;
+}
