@@ -10,7 +10,6 @@ interface ButtonProps {
   borderRadius?: string;
   children: React.ReactNode;
 }
-
 const Button: React.FC<ButtonProps> = ({
   backgroundColor,
   borderColor,
@@ -20,9 +19,7 @@ const Button: React.FC<ButtonProps> = ({
   height,
   onClick,
   children,
-  
 }) => {
-
   const buttonStyle = {
     backgroundColor: backgroundColor,
     borderColor,

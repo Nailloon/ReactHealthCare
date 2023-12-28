@@ -30,6 +30,10 @@
   margin-left: 162px;
   margin-bottom: 200px;
 }
+.container2WithoutMargin{
+  margin-left: 192px;
+  margin-bottom: 72px;
+}
 .header0{
   color: #000;
 
@@ -135,4 +139,52 @@ line-height: 30px; /* 166.667% */
   margin-left: 117px;
   margin-right: 84px;
   gap: 30px;
+}
+.container3 {
+  display: flex;
+  justify-content: space-between; /* изначально располагаем справа, или */
+  justify-content: center;
+  margin-left: 192px;
+}
+.header{
+  color: #000;
+  font-family: 'Muli', sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  width: 266px;
+}
+.textik{
+  color: #7D7987;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  width: 266px;
+}
+.link1{
+  color: #4089ED;
+  font-family: 'Muli', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.buttonText{
+  color: #458FF6;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+.buttonWhiteText{
+  color: #FFF;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; 
 }

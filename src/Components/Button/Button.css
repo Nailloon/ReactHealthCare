@@ -2,6 +2,12 @@
     display: inline-block;
     border: 1.4px solid;
     transition: background-color 0.4s;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    justify-content: center;
   }
 
 .button:active {

@@ -6,6 +6,7 @@ import Button from './Components/Button'
 import GridContainer from './Components/GridProps/GridContainerProps'
 import Divider from './Components/Divider';
 import TestimonialSlider from './Slider/TestimonialSlider'
+import CardSection from './Components/Cards/Cards'
 
 const items = [
   {
@@ -65,6 +66,34 @@ const testimonials = [
     image: 'ivan3.png',
   },
 ];
+const initialCards = [
+  {
+    image: "blood.png",
+    title: "Disease detection, check up in the laboratory",
+    text: "In this case, the role of the health laboratory is very important to do a disease detection...",
+    onLinkClick: () => {
+      // Логика для карточки 1
+    }
+  },
+  {
+    image: "science.png",
+    title: "Herbal medicines that are safe for consumption",
+    text: "Herbal medicine is very widely used at this time because of its very good for your health...",
+    onLinkClick: () => {
+      // Логика для карточки 2
+    }
+  },
+  {
+    image: "mask.png",
+    title: "Natural care for healthy facial skin",
+    text: "A healthy lifestyle should start from now and also for your skin health. There are some...",
+    onLinkClick: () => {
+      // Логика для карточки 3
+    }
+  },
+  // ... другие карточки
+];
+
 
 function App() {
 
@@ -110,13 +139,17 @@ function App() {
         <h1 className='header3'>Download our mobile app</h1>
         <Divider width={'56px'} borderRadius={'6px'} color={'#000000'} height={'2px'} align='left'></Divider>
         <p className='textNormal'>Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely</p>
-        <Button backgroundColor='#ffffff' borderColor='#458FF6' textColor='#458FF6' width='200px' height='56px' borderRadius='55px' children="Learn more"></Button>
+        <Button backgroundColor='#ffffff' borderColor='#458FF6' textColor='#458FF6' width='200px' height='56px' borderRadius='55px' children="Download"></Button>
       </div>
       <div>
         <img src={pic3} className="Pic3" alt="ApplicationsImage" />
       </div>
     </div>
     <TestimonialSlider data={testimonials} width={'1120px'} height={'425px'}></TestimonialSlider>
+    <div className='container2WithoutMargin'><p className='headerCenter'>Check out our latest article</p>
+      <Divider width={'56px'} borderRadius={'5px'} color={'#000000'} height={'2px'} align='center'></Divider></div>
+    <div className='container3'><CardSection initialCardWidth={350} initialCardHeight={512} shownCards={initialCards} hiddenCards={initialCards} rowSpacing={34} cardSpacing={17}></CardSection>
+    </div>
     </>
   )
 }
