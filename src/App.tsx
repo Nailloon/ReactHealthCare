@@ -5,6 +5,7 @@ import pic3 from '/pic3.png'
 import Button from './Components/Button'
 import GridContainer from './Components/GridProps/GridContainerProps'
 import Divider from './Components/Divider';
+import TestimonialSlider from './Slider/TestimonialSlider'
 
 const items = [
   {
@@ -36,6 +37,32 @@ const items = [
     image: 'aid.png',
     title: 'Tracking',
     text: 'Track and save your medical history and health data',
+  },
+];
+const testimonials = [
+  {
+    name: 'Edward Newgate',
+    position: 'Founder Circle',
+    review: 'Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely',
+    image: 'ivan.png',
+  },
+  {
+    name: 'Newgate Edward',
+    position: 'Founder Circle',
+    review: 'Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely',
+    image: 'ivan1.png',
+  },
+  {
+    name: 'Newgate Newgate',
+    position: 'Founder Circle',
+    review: 'Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely',
+    image: 'ivan2.png',
+  },
+  {
+    name: 'Edward Edward',
+    position: 'Founder Circle',
+    review: 'Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely',
+    image: 'ivan3.png',
   },
 ];
 
@@ -89,6 +116,7 @@ function App() {
         <img src={pic3} className="Pic3" alt="ApplicationsImage" />
       </div>
     </div>
+    <TestimonialSlider data={testimonials} width={'1120px'} height={'425px'}></TestimonialSlider>
     </>
   )
 }
